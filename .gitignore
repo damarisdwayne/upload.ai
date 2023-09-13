@@ -1,0 +1,12 @@
+node_modules
+dist/
+
+# Arquivos temporários
+*.swp
+*.swo
+
+# Arquivos de configuração de desenvolvimento local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
