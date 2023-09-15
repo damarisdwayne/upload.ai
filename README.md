@@ -2,11 +2,7 @@
 
 ## Overview
 
-The application is an innovative platform that seamlessly merges a cutting-edge React frontend with a robust Node.js backend, delivering an exceptional data upload and analysis experience. We've harnessed the power of advanced technologies and a myriad of libraries to craft this state-of-the-art solution, boasting a tech stack that includes Shadcn, Tailwind, Radix, Prisma, fs, Dotenv, Fastify, Fastify CORS, OpenAI, Zod, Vite, TypeScript, Lucide React, and clsx.
-
-But here's where it gets really cool - our platform leverages the limitless potential of artificial intelligence. It's not just another tool; it's your creative companion. With our AI capabilities, we empower users to effortlessly generate captivating titles and captivating video descriptions. Gone are the days of wracking your brain for the perfect wording – our AI does it for you, making your content shine.
-
-Welcome to the future of content creation, where technology meets creativity, and your ideas come to life with the click of a button. Say goodbye to writer's block and hello to a world of limitless possibilities. This is more than a platform; it's your creative partner in the digital realm.
+Welcome to the future of content creation! Our innovative platform combines a powerful React front-end with a robust Node.js back-end to provide an exceptional upload and data analysis experience to help users be more creative in creating names and descriptions for their videos. With AI capabilities at its core, it's more than just a tool; is your creative companion. Say goodbye to writer's block and hello to limitless possibilities.
 
 ### Frontend
 
@@ -28,6 +24,7 @@ The main dependencies of the frontend include:
 - `lucide-react`: An SVG icon library.
 - `@radix-ui/react-*`: A set of UI components for creating rich interfaces.
 - `@vitejs/plugin-react`: A Vite plugin for React support.
+- `ai`: A library that provides a wide range of artificial intelligence capabilities, including natural language processing, machine learning, and more. It empowers our application to automatically generate titles and video descriptions, making content creation more efficient and creative.
 
 #### Scripts
 
@@ -55,6 +52,7 @@ The main dependencies of the backend include:
 - `openai`: A library for integrating with the OpenAI platform.
 - `zod`: A library for data validation in TypeScript.
 - `prisma`: An ORM library for interacting with the database.
+- `ai`: The same AI library used on the frontend, enabling powerful AI features on the backend as well.
 
 #### Scripts
 
